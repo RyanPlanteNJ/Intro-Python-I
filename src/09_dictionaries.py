@@ -36,11 +36,11 @@ waypoints = [
 # Add a new waypoint to the list
 # YOUR CODE HERE
 
-waypoints.append({
+waypoints.append(dict({
 "lat": 20,
 "lon": -200,
 "name": "Somehwere"
-})
+}))
 
 print(waypoints)
 
@@ -58,5 +58,5 @@ print(waypoints)
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 
-for e, v in enumerate(waypoints):
-    print(v)
+for items in waypoints:
+    print(items)

@@ -10,13 +10,13 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = [i + 1 for i in range(5)]
+y = [i for i in range(1, 6)]
 #
 # for i in range(5):
 #     y.append(i+1)
 print (y)
 
-z = list(map(lambda z: z + 1, range(5)))
+z = list(map(lambda z: z, range(1, 6)))
 print(z)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
